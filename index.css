@@ -1,0 +1,69 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ background: url('images\ \(1\).jpeg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+}
+.avatar{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ top: 1em;
+ left: 780px;
+ position: absolute;
+ 
+}
+form{
+background-color: black;
+width: 320px;
+ height: 420px;
+top: 8em;
+left: 650px;
+position: absolute;
+padding-left: 3em;
+padding-top: 2em;
+
+}
+input[type="text" ], input[type="password"]{
+ border: none;
+ background: transparent;
+ border-bottom: 1px solid white;
+ color: #fff;
+ font-size: small;
+}
+input[type="button"]{
+ background-color: #fb2525;
+ width: 20em;
+ height: 3em;
+ border-radius: 1em;
+position: relative;
+top: 20px;
+color: #fff;
+font-size: larger;
+text-transform: capitalize;
+}
+a{
+ line-height: 2em;
+ color: white;
+position: relative;
+top: 2em;
+line-height: 5em;
+}
+h1{
+ line-height: 2em;
+ color: white;
+}
+input[type="button"]:hover{
+cursor: pointer;
+color: #ffc107;
+}
+a:hover{
+ cursor: pointer;
+color: #ffc107;
+}
